@@ -1,1 +1,29 @@
+body {
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+li {
+    list-style-type: none;
+    text-align: center;
+}
 
+header {
+    background-color: #ffe4c4bd;
+    margin-bottom: 0px;
+
+}
+
+main {
+    background-color: #ffe4c4bd;
+    margin-top: 0px;
+}
+
+body {
+    background-color: rgba(100, 148, 237, 0.527);
+}
+img {
+    max-width: 350px;
+    height: auto;
+    border-radius: 50px;
+}
