@@ -1,1 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CV</title>
+</head>
+<body>
+    <section>
+        <h1>
+            Alexey Li
+        </h1>
 
+        <h2>Contacts</h2>
+        <a href="mailto:Leealexey_94@mail.ru">Leealexey_94@mail.ru</a>
+    
+        <h2>About me</h2>
+        <p>This is my second try. I came back more experienced and more purposeful. The first goal is to get a mentor. Further more. 
+            I have worked as engineer for two years. I like to play chess.</p>
+        
+        <h2>Skills</h2>
+        <ul>
+            <li>JS</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Git</li>
+        </ul>
+        <h2>Code example</h2>
+        <pre>
+            <code>
+let posts = props.postData
+.map(element => &lt;Post message={element.message} counter={element.counter} />);
+
+let newPostElement = React.createRef();
+
+let addPost = () => {
+  let text = newPostElement.current.value;  
+  props.addPost(text);
+  newPostElement.current.value = '';
+}
+            </code>
+        </pre>
+        <h2>Experience</h2>
+        <ul>
+            <li><a href="https://www.freecodecamp.org/certification/neplohiesisi/javascript-algorithms-and-data-structures">JavaScript Algorithms and Data Structures</a></li>
+            <li><a href="https://www.freecodecamp.org/certification/neplohiesisi/responsive-web-design">Responsive Web Design</a></li>
+        </ul>
+
+        <h2>Education</h2>
+        <p>
+            Master degree of Bauman Moscow State Technical University, Informatics and control systems department
+        </p>
+
+        <h2>English</h2>
+        <p>C2(Proficient)</p>
+        <a href="https://www.efset.org/cert/S3Scja">EF SET Certificate</a>
+    </section>    
+</body>
+</html>
